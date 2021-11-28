@@ -18,11 +18,9 @@ int main()
         char *c = strchr(s, '\n');
         if(c != NULL) *c = '\0';
 
-        //puts(s);
+        puts(s);
 
         int l = strlen(s);
-        printf("%s ", s);
-        printf("%d\n", l);
         if(l > m)
         {
             m = l;
